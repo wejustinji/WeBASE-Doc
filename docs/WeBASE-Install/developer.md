@@ -27,7 +27,8 @@
     cd webase-front
     ```
 
-3. 拷贝sdk证书文件（build_chain的时候生成的）
+3. 修改application.yml的channelPort等配置并拷贝sdk证书文件（build_chain的时候生成的）
+    
     将节点所在目录nodes/${ip}/sdk下的ca.crt、node.crt和node.key文件拷贝到conf下
 
 4. 启动服务
